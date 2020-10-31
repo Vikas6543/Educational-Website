@@ -1,0 +1,135 @@
+.carousel-section {
+    margin-top: 50px;
+}
+
+
+/* ******************** image *********************** */
+.carousel-inner img {
+    width: 100%;
+    height: calc(100vh - 55px);
+}
+  
+  .carousel-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .carousel-caption h3 {
+      font-family: var(--heading-family);
+      letter-spacing: 4px;
+  }
+  .carousel-caption p {
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: 600;
+}
+  
+  /* ************************ prev-next button *********************** */
+  
+  .fa-angle-double-left,
+  .fa-angle-double-right {
+      font-size: 40px;
+  }
+  .fa-angle-double-left {
+      margin-top: 50px!important;
+  }
+  .fa-angle-double-right {
+      margin-top: 50px!important;
+  }
+
+  
+  /* *************************** marquee ****************************/
+ .right-side-slider {
+     background-color: rgb(221, 224, 224);
+     height: 97%;
+ }
+ 
+ 
+.noti-btn {
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid red;
+}
+
+.notifications {
+    border: 1px solid rgb(37, 36, 36);
+    height: 97%;
+}
+.notifications button {
+    background-color: var(--main-red);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.marquee-title {
+    color: var(--main-blue);
+    font-family: var(--heading-family);
+    letter-spacing: 1px;
+}
+.marquee-content {
+    font-family: var(--content-family);
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.noti-border {
+    border-bottom: 1px solid rgb(56, 55, 55);
+}
+.fa-caret-right {
+    color: var(--main-red);
+}
+  
+
+
+
+
+/* ********************** media-queries ************************** */
+@media only screen and (max-width: 600px) {
+    .carousel-inner img {
+        width: 100%;
+        height: calc(80vh - 55px);
+    }
+    .carousel-caption h3 {
+        font-family: var(--heading-family);
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+    .carousel-caption p {
+      letter-spacing: 2px;
+      font-size: 12px;
+      font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-inner img {
+        width: 100%;
+        height: calc(60vh - 55px);
+    }
+    .carousel-caption h3 {
+        font-family: var(--heading-family);
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+    .carousel-caption p {
+      letter-spacing: 2px;
+      font-size: 10px;
+      font-weight: 400;
+  }
+}
+
+
+@media only screen and (max-width: 990px) {
+    .notifications {
+        height: 10%;
+    }
+    .right-side-slider {
+        height: 10%;
+    }
+}

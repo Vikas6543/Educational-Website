@@ -1,0 +1,113 @@
+body {
+    line-height: 1.25;
+}
+.admission-title {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--heading-family);
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
+/* ************************* hr-icon ******************** */
+.hr-icon-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  
+  .hr-line {
+    width: 10%;
+    border-bottom: 2px solid rgb(124, 121, 121);
+  }
+  .hr-icon {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+
+
+/* ******************** table **************************** */
+  table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    margin-left: 15%;
+    table-layout: fixed;
+    box-shadow: 8px 8px 15px rgb(167, 166, 166);
+  }
+  table tr {
+    background-color: #f0ecec;
+    border: 1px solid rgb(202, 200, 200);
+    padding: .35em;
+  }
+  table .Account {
+      font-family: fantasy;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: 15px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 2px solid rgb(100, 99, 99);
+    background-color: rgb(240, 66, 66);
+    color: white;
+    font-family: var(--content-family);
+}
+
+.admission-link button{
+    font-family: var(--button-family);
+    background-color: rgb(113, 240, 74);
+    padding: 6px 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.admission-link button:hover {
+  background-color: rgb(60, 255, 1);
+}
+
+
+
+/* *********************** media-queries ********************** */
+@media only screen and (max-width: 500px) {
+  .hr-line {
+    width: 25%;
+    border-bottom: 2px solid rgb(124, 121, 121);
+  }
+  .hr-icon {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  .admission-title {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+  table {
+    width: 90%;
+    margin-left: 5%;
+  }
+  table th {
+    font-size: 13px;
+    letter-spacing: .1em;
+    padding: 6px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .admission-link button{
+    padding: 6px 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,41 @@
+.logo img {
+    padding-left: 12%;
+    height: 100%;
+    width: 100%;
+}
+.logo-content {
+    padding-top: 2rem;
+}
+
+
+/* ********************** media-quries ************************ */
+@media only screen and (max-width: 1000px) {
+    .row.logo {
+      display: block;
+      width: 100%;
+    }
+    .row.logo img {
+        padding-left: 0;
+    }
+    .logo-content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-right: 0!important;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logo-content .fas {
+        font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .logo-content .fas {
+        font-size: 10px;
+    }
+  }
+
+
+
+

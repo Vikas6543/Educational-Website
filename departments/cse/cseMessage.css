@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+
+.message-section {
+  background-color: rgb(238, 234, 234);
+}
+
+.message-title {
+  font-family: 'Patua One', cursive;
+}
+
+.hr-icon-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  
+  .hr-line {
+    width: 10%;
+    border-bottom: 2px solid rgb(124, 121, 121);
+  }
+  .hr-icon {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+
+.message-para {
+  text-indent: 8%;
+  font-weight: 500;
+}
+.contact-phone {
+  font-size: 20px;
+}
+.contact-email {
+  font-size: 22px;
+}
+
+
+.message-section-content h5 {
+  background-color: rgb(236, 41, 204);
+  width: 40vw;
+  padding: 4px;
+}
+
+.message-content {
+  background-image: url("./images/blogging-coding.jpg");
+  background-attachment: fixed;
+  background-repeat: initial;
+  background-position: right;
+}
+
+
+
+
+
+/* ************************** media-quries ********************* */
+@media only screen and (max-width: 760px) {
+  .hod-title {
+    font-size: 20px;
+    padding-top: 6px
+  }
+  .hod-image {
+    float: none!important;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+  }
+  .message-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .message-para {
+    padding-right: 0!important;
+    width: 95%;
+  }
+  .message-section-content h5 {
+    width: 80vw;
+    padding: 4px;
+    text-align: center;
+  }
+  .contact-phone span {
+    font-size: 15px;
+  }
+}

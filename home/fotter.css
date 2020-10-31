@@ -1,0 +1,30 @@
+.social-icons {
+    background-color: rgb(34, 33, 33);
+}
+.fa-facebook-f {
+    color: blue;
+}
+.fa-google-plus-g {
+    color: red;
+}
+.fa-twitter {
+    color: rgb(2, 238, 255)
+}
+.fa-instagram {
+    color: rgb(251, 83, 5)
+}
+.fa-pinterest-p {
+    color: deeppink;
+}
+
+
+
+.fotter-content {
+    background-color: black;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.fa-heart {
+    color: red;
+}

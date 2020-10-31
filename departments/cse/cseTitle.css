@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+
+.cse-top-title {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+.cse-title {
+    background-image: url("./images/blogging-coding.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cse-title {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .cse-title h1 {
+        font-size: 20px;
+    }
+}
